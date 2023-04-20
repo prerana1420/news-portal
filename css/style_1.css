@@ -73,6 +73,7 @@ a:hover {
     width: auto;
     height: auto;
   font-family: 'Nabla', cursive;
+  font-size: 3.5em;
 }
 .fh5co_mediya_right {
   text-align: right;
@@ -285,12 +286,15 @@ a:hover {
   right: 40%;
 }
 .fh5co_latest_trading_img_position_relative {
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
   z-index: 5;
   cursor: pointer;
+  box-shadow: 5px 10px 18px #888888;
 }
 .fh5co_latest_trading_img_position_absolute {
+  border-radius: 20px;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -384,10 +388,10 @@ a:hover {
 }
 .fh5co_news_img {
   height: 200px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 520x;
+  border-radius: 20px;
   overflow: hidden;
   position: relative;
   top: 0;
@@ -400,6 +404,7 @@ a:hover {
   -webkit-transition: all all 0.5s ease;
   -ms-transition: all all 0.5s ease;
   transition: all all 0.5s ease;
+  box-shadow: 5px 10px 18px #888888;
 }
 .fh5co_news_img > img {
   height: 260px;
@@ -546,6 +551,7 @@ a:hover {
   margin-top: 5px;
   margin-bottom: 5px;
   display: inline-block;
+  border-radius: 25px;
 }
 .fh5co_tagg:hover,
 .fh5co_tagg:focus {
@@ -556,6 +562,7 @@ a:hover {
 .fh5co_most_trading {
   height: 60px;
   width: 100%;
+  border-radius: 5px;
 }
 .most_fh5co_treding_font_123 {
   font-size: 12px;
@@ -605,6 +612,7 @@ a:hover {
 .footer_logo {
   width: auto;
   font-family: 'Nabla', cursive;
+  font-size: 5em;
 }
 .footer_main_title {
   color: #fff;
@@ -903,6 +911,11 @@ a:hover {
   border-radius: 0 !important;
   color: #fff !important;
   padding: 10px 50px !important;
+  background: #f5bc04 !important;
+  -webkit-clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
+  -moz-clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
+  -ms-clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
+  clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
 }
 .contact_btn:hover,
 .contact_btn:focus {
