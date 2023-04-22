@@ -89,8 +89,11 @@ body {
   border-radius: 0;
 
 }
-
 .enter-btn:hover{
     box-shadow: 5px 10px 8px #888888;
 
+}
+.logo{
+  width: 4.5rem;
+  height:auto;
 }

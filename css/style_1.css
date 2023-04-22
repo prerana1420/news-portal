@@ -69,8 +69,8 @@ a:hover {
 
 
 .fh5co_logo_width {
-  /* width: 130px; */
-    width: auto;
+  width: 90px;
+    /* width: auto; */
     height: auto;
   font-family: 'Nabla', cursive;
   font-size: 3.5em;
@@ -610,9 +610,10 @@ a:hover {
   clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
 }
 .footer_logo {
-  width: auto;
-  font-family: 'Nabla', cursive;
-  font-size: 5em;
+  width: 15em;
+  height: auto;
+  /* font-family: 'Nabla', cursive; */
+  /* font-size: 5em; */
 }
 .footer_main_title {
   color: #fff;
